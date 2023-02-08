@@ -1,0 +1,40 @@
+@charset "utf-8";  
+
+* { margin:0px; padding:0px; }
+
+:root   {  
+            --gray: #C2C8DA;
+            --black:#000000;
+            --white:#FFFFFF;
+            --yelow:#E6C744;
+            --font-black:'ex_01';
+            --font-medium:'ex_02';
+            --font-regular:'ex_03';
+        }
+
+@font-face { font-family:'ex_01'; src: url(/typography/Poppins/Poppins-Black.ttf) format(truetype);  }
+@font-face { font-family:'ex_02'; src: url(/typography/Poppins/Poppins-Medium.ttf) format(truetype);  }
+@font-face { font-family:'ex_03'; src: url(/typography/Poppins/Poppins-Regular.ttf) format(opentype);  }
+
+div.flexbox-items {  background-color:rgb(20, 187, 123);  }
+
+section#flexbox-container-a { display:flex; border:1px solid black; justify-content:center; height:50px; align-items:center; } 
+div#flexbox-item-a1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
+
+section#flexbox-container-a-extra { display:flex; border:1px solid black; justify-content:center; height:50px; align-items:center; } 
+div#flexbox-item-a1-extra {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
+
+section#flexbox-container-b { display:flex; border:1px solid black; justify-content:center; height:50px; align-items:center; } 
+div#flexbox-item-b1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
+
+section#flexbox-container-c { display:flex; border:1px solid black; justify-content:center; height:50px; align-items:center; } 
+div#flexbox-item-c1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
+
+section#flexbox-container-d { display:flex; border:1px solid black; justify-content:center; height:50px; align-items:center; } 
+div#flexbox-item-d1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
+
+section#flexbox-container-e { display:flex; border:1px solid black; justify-content:center; height:50px; align-items:center; } 
+div#flexbox-item-e1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
+
+section#flexbox-container-f { display:flex; border:1px solid black; justify-content:center; height:50px; align-items:center; } 
+div#flexbox-item-f1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
