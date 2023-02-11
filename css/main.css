@@ -19,7 +19,11 @@
 div.flexbox-items {  background-color:rgb(20, 187, 123);  }
 
 section#flexbox-container-a { display:flex; border:1px solid black; justify-content:space-around; height:50px; align-items:center; } 
-div#flexbox-item-a1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
+
+    div#flexbox-item-a1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
+    div#flexbox-item-a2 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
+    div#flexbox-item-a3 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
+    div#flexbox-item-a4 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
 
 section#flexbox-container-a-extra { display:flex; border:1px solid black; justify-content:center; height:50px; align-items:center; } 
 div#flexbox-item-a1-extra {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
@@ -37,4 +41,6 @@ section#flexbox-container-e { display:flex; border:1px solid black; justify-cont
 div#flexbox-item-e1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
 
 section#flexbox-container-f { display:flex; border:1px solid black; justify-content:center; height:50px; align-items:center; } 
-div#flexbox-item-f1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
+div#flexbox-item-f1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center; }
+
+
