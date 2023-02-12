@@ -1,0 +1,19 @@
+@charset "utf-8";  
+
+* { margin:0px; padding:0px; }
+
+:root   {  
+            --gray: #C2C8DA;
+            --black:#000000;
+            --white:#FFFFFF;
+            --yelow:#E6C744;
+            --font-black:'ex_01';
+            --font-medium:'ex_02';
+            --font-regular:'ex_03';
+        }
+
+@font-face { font-family:'ex_01'; src: url(/typography/Poppins/Poppins-Black.ttf) format(truetype);  }
+@font-face { font-family:'ex_02'; src: url(/typography/Poppins/Poppins-Medium.ttf) format(truetype);  }
+@font-face { font-family:'ex_03'; src: url(/typography/Poppins/Poppins-Regular.ttf) format(opentype);  }
+
+
