@@ -6,14 +6,24 @@
             --gray: #C2C8DA;
             --black:#000000;
             --white:#FFFFFF;
-            --yelow:#E6C744;
+            --yelow:#EBD96B;
             --font-black:'ex_01';
             --font-medium:'ex_02';
             --font-regular:'ex_03';
         }
 
-@font-face { font-family:'ex_01'; src: url(/typography/Poppins/Poppins-Black.ttf) format(truetype);  }
-@font-face { font-family:'ex_02'; src: url(/typography/Poppins/Poppins-Medium.ttf) format(truetype);  }
-@font-face { font-family:'ex_03'; src: url(/typography/Poppins/Poppins-Regular.ttf) format(opentype);  }
 
+
+div#flexbox-item-a2 > a:hover { text-decoration:none; font-family:var(--font-medium); font-weight:bolder;   }
+div#flexbox-item-a3 > a:hover { text-decoration:none; font-family:var(--font-medium); font-weight:bolder;   }
+div#flexbox-item-a4 > a:hover { text-decoration:none; font-family:var(--font-medium); font-weight:bolder;   }
+div#flexbox-item-a5 > a:hover { text-decoration:none; font-family:var(--font-medium); font-weight:bolder;   }
+
+
+div#social-media-container > a:hover {  background-color: #C2C8DA; transition:0.7s;}
+::-webkit-scrollbar { width: 8px;}
+
+::-webkit-scrollbar-track {  background-color: black; }
+
+::-webkit-scrollbar-thumb { background-color: #EBD96B; border-radius: 40px; }
 
