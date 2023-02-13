@@ -8,18 +8,19 @@
             --white:#FFFFFF;
             --yelow:#EBD96B;
             --font-black:'ex_01';
-            --font-medium:'ex_02';
+            --font-regular:'ex_02';
             --font-regular:'ex_03';
         }
 
 @font-face { font-family:'ex_01'; src: url(/typography/Poppins/Poppins-Black.ttf) format(truetype);  }
-@font-face { font-family:'ex_02'; src: url(/typography/Poppins/Poppins-Medium.ttf) format(truetype);  }
+@font-face { font-family:'ex_02'; src: url(/typography/Poppins/Poppins---font-regular.ttf) format(truetype);  }
 @font-face { font-family:'ex_03'; src: url(/typography/Poppins/Poppins-Regular.ttf) format(opentype);  }
 
-div.flexbox-items {  background-color:rgb(20, 187, 123);  }
- /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+div.flexbox-items {  background-color:rgb(20, 187, 123); display:flex; }
+ /*--------------------------------------------------------------------HEADER - MENU -------------------------------------------------------------------------------------------- */
 
-section#flexbox-container-a { display:flex; border:1px solid black; justify-content:space-between; height:62px; align-items:center; width:1720px; margin:auto;  margin-bottom:40px;  margin-top:40px; } 
+section#flexbox-container-a { display:flex; border:1px solid black; justify-content:space-between; height:62px; align-items:center; 
+                                width:1720px; margin:auto;  margin-bottom:40px;  margin-top:40px; flex-wrap:nowrap; } 
 
     div#flexbox-item-a1 {  width:240px; height:38px; display:flex; justify-content: start; align-items:center;}
 
@@ -33,7 +34,7 @@ section#flexbox-container-a { display:flex; border:1px solid black; justify-cont
 
     div#flexbox-item-a6 {  width:180px; height:38px; display:flex; justify-content: center; align-items:center;}
 
- /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+ /*-------------------------------------------------------------------------HEADER - BANNER ------------------------------------------------------------------------------------ */
 
 section#flexbox-container-b { display:flex; border:1px solid black; justify-content:center; height:870px; width:1720px; align-items:center; margin:auto; margin-top:40px;
                                 background-image:url(/images/banner-01.png); background-size:contain; background-repeat: no-repeat; margin-bottom:40px;
@@ -41,13 +42,13 @@ section#flexbox-container-b { display:flex; border:1px solid black; justify-cont
 
 section#flexbox-container-b > img#vector-9 { position:relative; right:640px; top:280px; }
 
- /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+ /*------------------------------------------------------------------------------BRANDS---------------------------------------------------------------------------------------- */
 
 section#flexbox-container-c { display:flex; border:1px solid black; justify-content:space-around; height:186px; align-items:center; width:99.1vw; background-color: #EBD96B; 
                                 margin-top:40px;  margin-bottom:40px;
                             } 
 
-    div#flexbox-item-c1 {  width:180px; height:120px; display:flex; justify-content: center; align-items:center;  }
+div#flexbox-item-c1 {  width:180px; height:120px; display:flex; justify-content: center; align-items:center;  }
     div#flexbox-item-c1 > img  { width:118.26; height:69.51; }
 
     div#flexbox-item-c2 {  width:180px; height:120px; display:flex; justify-content: center; align-items:center;  }
@@ -56,20 +57,62 @@ section#flexbox-container-c { display:flex; border:1px solid black; justify-cont
     div#flexbox-item-c5 {  width:180px; height:120px; display:flex; justify-content: center; align-items:center;  }
     div#flexbox-item-c6 {  width:180px; height:120px; display:flex; justify-content: center; align-items:center;  }
 
- /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+ /*----------------------------------------------------------------------------NEW ARRIVALS ------------------------------------------------------------------------------------ */
 
-section#flexbox-container-d { display:flex; border:1px solid black; justify-content:center; height:967px; width:1638px; margin:auto; margin-top:40px; align-items:center; 
-                                margin-bottom:40px;  margin-top:40px;
-                            } 
-div#flexbox-item-d1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
+section#flexbox-container-d { display:flex; border:1px solid black; justify-content:space-between; height:967px; width:1638px; margin:auto; align-items:end; 
+                                margin-bottom:40px;  margin-top:40px; background-image:url(/images/New\ Arrivals.png); background-repeat:no-repeat; background-size:contain;
+                            }
 
- /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+div#flexbox-item-d1 {  width:484px; height:76px; display:flex; flex-direction: column; justify-content: end; }
+    div#flexbox-item-d1 > p { font-family:var(--font-regular); font-size:24px; letter-spacing:-1px; }
+    div#flexbox-item-d1 > a { font-family:var(--font-regular); font-size:19px; color:#7F7F7F; text-decoration:none;  }
+
+div#flexbox-item-d2 {  width:484px; height:75px; display:flex; flex-direction: column; justify-content: end; }
+    div#flexbox-item-d2 > p { font-family:var(--font-regular); font-size:24px; letter-spacing:-1px; }
+    div#flexbox-item-d2 > a { font-family:var(--font-regular); font-size:19px; color:#7F7F7F; text-decoration:none;  }
+
+div#flexbox-item-d3 {  width:490px; height:77px; display:flex; flex-direction: column;  justify-content: end;}
+    div#flexbox-item-d3 > p { font-family:var(--font-regular); font-size:24px; letter-spacing:-1px; }
+    div#flexbox-item-d3 > a { font-family:var(--font-regular); font-size:19px; color:#7F7F7F; text-decoration:none;  }
+
+ /*------------------------------------------------------------------------------PAYDAY--------------------------------------------------------------------------------------- */
 
 section#flexbox-container-e { display:flex; border:1px solid black; justify-content:center; height:968px; align-items:center; background-image:url(/images/Banner-payday.png);
                                 margin-bottom:40px;  margin-top:40px; background-repeat:no-repeat; } 
 
+ /*-------------------------------------------------------------------------Young's favorite---------------------------------------------------------------------------------- */
+
+section#flexbox-container-f { display:flex; border:1px solid black; justify-content:space-between; height:847px; width:1720px; margin:auto; align-items:end; 
+                                 margin-bottom:40px; margin-top:40px; background-image:url(/images/Youngs\ Favourite.png); background-repeat:no-repeat; background-size:contain;
+                            } 
+div#flexbox-item-f1 {  width:835px; height:76px; display:flex; flex-direction: column;  justify-content: end; } 
+    div#flexbox-item-f1 > p { font-family:var(--font-regular); font-size:24px; letter-spacing:-1px; }
+    div#flexbox-item-f1 > a { font-family:var(--font-regular); font-size:19px; color:#7F7F7F; text-decoration:none;  }
+
+div#flexbox-item-f2 {  width:835px; height:75px; display:flex; flex-direction: column; justify-content: end; } 
+    div#flexbox-item-f2 > p { font-family:var(--font-regular); font-size:24px; letter-spacing:-1px; }
+    div#flexbox-item-f2 > a { font-family:var(--font-regular); font-size:19px; color:#7F7F7F; text-decoration:none;  }
+
  /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-section#flexbox-container-f { display:flex; border:1px solid black; justify-content:center; height:50px; align-items:center; } 
-div#flexbox-item-f1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center; }
+section#flexbox-container-g { display:flex; border:1px solid black; justify-content:center; height:967px; width:1483px; margin:auto; align-items:center; 
+                                 margin-bottom:40px;  margin-top:40px; 
+                            } 
 
+div#flexbox-item-g1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center; }
+
+
+ /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+section#flexbox-container-h { display:flex; border:1px solid black; justify-content:center; height:967px; width:1638px; margin:auto; align-items:center; 
+                                margin-bottom:40px;  margin-top:40px;
+                            } 
+
+div#flexbox-item-h1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center; }
+
+ /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+section#flexbox-container-h { display:flex; border:1px solid black; justify-content:center; height:967px; width:1638px; margin:auto; align-items:center; 
+                                margin-bottom:40px;  margin-top:40px;
+                            } 
+div#flexbox-item-fh {  width:250px; height:38px; display:flex; justify-content: center; align-items:center; }
