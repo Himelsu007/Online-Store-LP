@@ -19,11 +19,13 @@ div#flexbox-item-a3 > a:hover { text-decoration:none; font-family:var(--font-med
 div#flexbox-item-a4 > a:hover { text-decoration:none; font-family:var(--font-medium); font-weight:bolder;   }
 div#flexbox-item-a5 > a:hover { text-decoration:none; font-family:var(--font-medium); font-weight:bolder;   }
 
+html { scroll-behavior:smooth; }
 
 div#social-media-container > a:hover {  background-color: #C2C8DA; transition:0.7s;}
 ::-webkit-scrollbar { width: 8px;}
 
 ::-webkit-scrollbar-track {  background-color: black; }
 
-::-webkit-scrollbar-thumb { background-color: #EBD96B; border-radius: 40px; }
+::-webkit-scrollbar-thumb { background-color: #eb6b6b; border-radius: 40px; }
+div#flexbox-item-a6 > a:hover { background-color: #EBD96B; color: #000000; transition:0.4s; }
 
