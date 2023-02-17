@@ -17,7 +17,7 @@
 @font-face { font-family:'ex_02'; src: url(/typography/Poppins/Poppins-Medium.ttf) format(truetype);  }
 @font-face { font-family:'ex_03'; src: url(/typography/Poppins/Poppins-Regular.ttf) format(opentype);  }
 @font-face { font-family:'ex_04'; src: url(/typography/roboto/Roboto-Regular.ttf) format(opentype);  }
-
+        
  /*--------------------------------------------------------------------HEADER - MENU -------------------------------------------------------------------------------------------- */
 
 section#flexbox-container-a { display:flex;  justify-content:space-between; height:62px; align-items:center; 
