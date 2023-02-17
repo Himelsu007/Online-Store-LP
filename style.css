@@ -2,7 +2,8 @@
 
 * { margin:0px; padding:0px; }
 
-:root   {  
+
+        :root   {  
             --gray: #C2C8DA;
             --black:#000000;
             --white:#FFFFFF;
@@ -10,9 +11,13 @@
             --font-black:'ex_01';
             --font-medium:'ex_02';
             --font-regular:'ex_03';
+            --roboto-regular:'ex_04';
         }
 
-
+@font-face { font-family:'ex_01'; src: url(/typography/Poppins/Poppins-Black.ttf) format(truetype);  }
+@font-face { font-family:'ex_02'; src: url(/typography/Poppins/Poppins-Medium.ttf) format(truetype);  }
+@font-face { font-family:'ex_03'; src: url(/typography/Poppins/Poppins-Regular.ttf) format(opentype);  }
+@font-face { font-family:'ex_04'; src: url(/typography/roboto/Roboto-Regular.ttf) format(opentype);  }
 
 div#flexbox-item-a2 > a:hover { text-decoration:none; font-family:var(--font-medium); font-weight:bolder;   }
 div#flexbox-item-a3 > a:hover { text-decoration:none; font-family:var(--font-medium); font-weight:bolder;   }
