@@ -45,7 +45,7 @@ section#flexbox-container-a { display:flex;  justify-content:space-between; heig
  /*-------------------------------------------------------------------------HEADER - BANNER ------------------------------------------------------------------------------------ */
 
 section#flexbox-container-b { display:flex;  justify-content:center; height:870px; width:1720px; align-items:center; margin:auto; margin-top:40px;
-                                background-image:url(./images/banner-01.png); background-size:contain; background-repeat: no-repeat; margin-bottom:40px;
+                                background-image:url('./images/banner-01.png'); background-size:contain; background-repeat: no-repeat; margin-bottom:40px;
                              } 
 
 section#flexbox-container-b > img#vector-9 { position:relative; right:640px; top:280px; }
