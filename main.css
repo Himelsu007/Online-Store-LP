@@ -13,10 +13,10 @@
             --roboto-regular:'ex_04';
         }
 
-@font-face { font-family:'ex_01'; src: url(/typography/Poppins/Poppins-Black.ttf) format(truetype);  }
-@font-face { font-family:'ex_02'; src: url(/typography/Poppins/Poppins-Medium.ttf) format(truetype);  }
-@font-face { font-family:'ex_03'; src: url(/typography/Poppins/Poppins-Regular.ttf) format(opentype);  }
-@font-face { font-family:'ex_04'; src: url(/typography/roboto/Roboto-Regular.ttf) format(opentype);  }
+@font-face { font-family:'ex_01'; src: url(./typography/Poppins/Poppins-Black.ttf) format(truetype);  }
+@font-face { font-family:'ex_02'; src: url(./typography/Poppins/Poppins-Medium.ttf) format(truetype);  }
+@font-face { font-family:'ex_03'; src: url(./typography/Poppins/Poppins-Regular.ttf) format(opentype);  }
+@font-face { font-family:'ex_04'; src: url(./typography/roboto/Roboto-Regular.ttf) format(opentype);  }
         
  /*--------------------------------------------------------------------HEADER - MENU -------------------------------------------------------------------------------------------- */
 
@@ -45,7 +45,7 @@ section#flexbox-container-a { display:flex;  justify-content:space-between; heig
  /*-------------------------------------------------------------------------HEADER - BANNER ------------------------------------------------------------------------------------ */
 
 section#flexbox-container-b { display:flex;  justify-content:center; height:870px; width:1720px; align-items:center; margin:auto; margin-top:40px;
-                                background-image:url(/images/banner-01.png); background-size:contain; background-repeat: no-repeat; margin-bottom:40px;
+                                background-image:url(./images/banner-01.png); background-size:contain; background-repeat: no-repeat; margin-bottom:40px;
                              } 
 
 section#flexbox-container-b > img#vector-9 { position:relative; right:640px; top:280px; }
@@ -68,7 +68,7 @@ div#flexbox-item-c1 {  width:180px; height:120px; display:flex; justify-content:
  /*----------------------------------------------------------------------------NEW ARRIVALS ------------------------------------------------------------------------------------ */
 
 section#flexbox-container-d { display:flex;  justify-content:space-between; height:967px; width:1638px; margin:auto; align-items:end; 
-                                margin-bottom:190px;  margin-top:40px; background-image:url(/images/New\ Arrivals.png); background-repeat:no-repeat; background-size:contain;
+                                margin-bottom:190px;  margin-top:40px; background-image:url(./images/New\ Arrivals.png); background-repeat:no-repeat; background-size:contain;
                             }
 
 div#flexbox-item-d1 {  width:484px; height:76px; display:flex; flex-direction: column; justify-content: end; }
@@ -86,13 +86,13 @@ div#flexbox-item-d3 {  width:490px; height:77px; display:flex; flex-direction: c
 
  /*------------------------------------------------------------------------------PAYDAY--------------------------------------------------------------------------------------- */
 
-section#flexbox-container-e { display:black;   height:968px; width:99vw; background-image:url(/images/Banner-payday.png);
+section#flexbox-container-e { display:black;   height:968px; width:99vw; background-image:url(./images/Banner-payday.png);
                                 margin-bottom:40px;  margin-top:40px; background-repeat:no-repeat; background-position-x: center; } 
 
  /*-------------------------------------------------------------------------Young's Favorite---------------------------------------------------------------------------------- */
 
 section#flexbox-container-f { display:flex;  justify-content:space-between; height:847px; width:1720px; margin:auto; align-items:end; background-position-x:center;
-                                 margin-bottom:40px; margin-top:40px; background-image:url(/images/Youngs\ Favourite.png); background-repeat:no-repeat; background-size:contain;
+                                 margin-bottom:40px; margin-top:40px; background-image:url(./images/Youngs\ Favourite.png); background-repeat:no-repeat; background-size:contain;
                             } 
 div#flexbox-item-f1 {  width:835px; height:76px; display:flex; flex-direction: column;  justify-content: end; } 
     div#flexbox-item-f1 > p { font-family:var(--font-regular); font-size:24px; letter-spacing:-1px; }
@@ -105,7 +105,7 @@ div#flexbox-item-f2 {  width:835px; height:75px; display:flex; flex-direction: c
  /*-------------------------------------------------------------------------Download-------------------------------------------------------------------------------------------- */
 
 section#flexbox-container-g {  display:flex;  height:710px; width:1483px; margin:auto; align-items:center; justify-content:start; 
-                                margin-bottom:80px; margin-top:200px; background-image:url(/images/Vouchers.png); background-repeat:no-repeat; background-size:contain;
+                                margin-bottom:80px; margin-top:200px; background-image:url(./images/Vouchers.png); background-repeat:no-repeat; background-size:contain;
                                
                             } 
 
@@ -117,7 +117,7 @@ section#flexbox-container-g {  display:flex;  height:710px; width:1483px; margin
  /*--------------------------------------------------------------------------Subscription---------------------------------------------------------------------------------------- */
 
 section#flexbox-container-h { display:flex; height:619px; width:99.5vw;  align-items:center; background-repeat:no-repeat; margin-top:40px; align-items:center;
-                              background-image:url(/images/baner-subcription.png); background-size:contain; justify-content:center; background-position-x:center; } 
+                              background-image:url(./images/baner-subcription.png); background-size:contain; justify-content:center; background-position-x:center; } 
 
 div#flexbox-item-h1 {  width:770px; height:57px; display:flex; justify-content: center; align-items:center; position:relative; top:100px; left:62.5px; }
 div#flexbox-item-h1 > form > input#iemail { border-radius:6px; height:57px; width:480px; border:1px solid transparent; font-size:19px; padding-left:20px; }
