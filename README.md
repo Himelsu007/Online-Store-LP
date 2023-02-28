@@ -1,5 +1,5 @@
 
-<h1> Landing Page of a online store </h1>
+<h1> Landing Page of a online store  [NOT RESPONSIVE]</h1>
 
 Click here to visit: https://himelsu007.github.io/Online-Store-LP/
 
